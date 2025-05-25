@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<script type="module">
+import { add, subtract } from "./build/release.js";
+document.getElementById('sum').innerText = add(1, 2);
+document.getElementById('dif').innerText = subtract(3, 1);
+</script>
+</head>
+<body>
+<div><span>1 + 2 =</span><span id="sum"></span></div>
+<div><span>3 - 1 =</span><span id="dif"></span></div>
+</body>
+</html>
