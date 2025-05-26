@@ -19,6 +19,7 @@ http://localhost:3000
   3 - 1 =2
   hello('Stan') =hello, Stan!
 
+#### explanation of project file-structure
 
 ```
 ![./output-screenshot.png](./output-screenshot.png)
@@ -40,6 +41,22 @@ ab-as-import-fn/
 └── tests
     └── index.js
 
+```
+
+#### running tests
+
+```bash
+# here`s the command to run the tests defined in ./tests/index.js
+npm run test
+
+  # sample output
+  > ab-as-import-fn@1.0.0 test
+  > node tests
+  
+  add passed
+  subtract passed
+  hello passed
+  ok
 
 
 ```
